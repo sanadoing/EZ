@@ -5,6 +5,6 @@ import TheWelcome from "../components/TheWelcome.vue";
 <template>
   <main>
     <TheWelcome />
-    <div>sana test</div>
+    <div>sana test!!</div>
   </main>
 </template>
