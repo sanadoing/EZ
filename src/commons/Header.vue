@@ -6,19 +6,19 @@
   <header class="header">
     <div class="container">
       <div class="nav-title">
-          MyLogo
+          <img class="logo" src="../assets/logo.png" alt="">
       </div>
       <div class="nav-elements">
           <ul class="elements">
-              <li class="items"><a href="#" class="hover:text-white">기업/산업</a></li>
+              <li class="items"><a href="#" class="hover:text-white title">기업/산업</a></li>
               <li class="items"><a href="#" class="hover:text-white">용어사전</a></li>
               <li class="items"><a href="#" class="hover:text-white">자유게시판</a></li>
               <li class="items"><a href="#" class="hover:text-white">공지사항</a></li>
           </ul>
       </div>
       <div class="login-compo">
-          <ul class="flex">
-              <li class="items">
+          <ul class="compos">
+              <li style="margin-right:30px">
                 <div class="login-container">
                   <a href="#" class="hover:text-white">로그인</a>
                 </div></li>
@@ -30,8 +30,26 @@
 </template>
 
 <style scoped>
+.logo {
+  width: 45px;
+  height: 45px;
+}
+.compos {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 .items {
   margin-right: 80px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  border-bottom: 3px solid gray
+}
+.items:hover {
+  border-bottom-color: black;
+
 }
 .nav-title {
   margin-right: 80px;
@@ -57,9 +75,12 @@
 .login-container {
   width: 100px;
   height: 50px;
-  background-color: blue;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+  color:white;
+  border-radius: 30px ;
 }
+
 </style>
