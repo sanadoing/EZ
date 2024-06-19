@@ -1,10 +1,7 @@
 <script setup>
-import TheWelcome from "../components/TheWelcome.vue";
+import Header from "../commons/Header.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-    <div>sana test!!</div>
-  </main>
+  <Header />
 </template>
